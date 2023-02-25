@@ -72,8 +72,8 @@ class MainActivity : AppCompatActivity() {
 <details>
 <summary><strong>More Details</strong></summary>
   
-* Medium Article : <a href:"https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712"> Click Here<\a>
-* Android Developers : https://developer.android.com/reference/androidx/work/WorkManager
+* Medium Article : <a href="https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712"> 
+* Android Developers : <a href="https://developer.android.com/reference/androidx/work/WorkManager">Click Here</a>
 
 </details>
 
