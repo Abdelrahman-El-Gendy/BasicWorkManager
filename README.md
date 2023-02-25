@@ -68,10 +68,10 @@ class MainActivity : AppCompatActivity() {
     workManager.enqueue(workRequest)
     }
 }
-
-
-```details>
+```
+<details>
 <summary><strong>More Details</strong></summary>
+  [Android Developers](https://developer.android.com/reference/androidx/work/WorkManager)
 * Medium Article : https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712
 * Android Developers : https://developer.android.com/reference/androidx/work/WorkManager
 
