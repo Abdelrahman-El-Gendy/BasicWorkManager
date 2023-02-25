@@ -28,7 +28,9 @@
   
   <li>Job Scheduler : Fixes some of the issues of the AlarmManager in AsyncTask , and adds  new feature.</li>
  </ol>
+ 
 ## Using WorkManager
+
 <ol>
   <li>Describe the Work (background Task) to be done</li>
   
@@ -38,6 +40,7 @@
  </ol>
  
  ## Example
+ 
  ### Worker.kt
  
  ```kt
