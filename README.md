@@ -18,7 +18,7 @@
 
 * There are many different situations in which you need to run background work, and therefore different solutions for running background work. 
 * This blog post about background processing provides a lot of great information about when to use WorkManager. Take a look at this diagram from the blog:
-<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*2arjXq_bwgaNwVBCiLgiOw.png" alt="WorkManager"> 
+        <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*2arjXq_bwgaNwVBCiLgiOw.png" alt="WorkManager"> 
 
 ## Scheduling Background Tasks
 <ol>
