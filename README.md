@@ -1,6 +1,6 @@
 # WorkManager
 - WorkManager is an Android Jetpack library that runs deferrable, guaranteed background work when the work’s constraints are satisfied. 
-It is the current best practice for this kind of work on Android
+ *It is the current best practice for this kind of work on Android
 
 # Usage
 -WorkManager handles background work that needs to run when various constraints are met, regardless of whether the application process is alive or not. 
