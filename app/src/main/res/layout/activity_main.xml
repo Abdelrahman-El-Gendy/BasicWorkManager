@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnStartWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Work" />
+
+    <Button
+        android:id="@+id/btnWorkStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work Status" />
+
+    <Button
+        android:id="@+id/btnResetStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Status" />
+
+    <Button
+        android:id="@+id/btnWorkUIThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work on UI Thread" />
+</LinearLayout>
