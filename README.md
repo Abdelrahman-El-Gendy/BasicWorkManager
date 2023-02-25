@@ -34,3 +34,15 @@
   
   <li>You 'll need an instance of a WorkManager to schedule the work request</li>
  </ol>
+ 
+ # Example
+ ### Worker.kt
+ 
+ ```kt
+class MyWorker: Worker {
+override fun doWork(): Result {
+// do the work!
+return Result.success()
+  }
+}  
+ ```
