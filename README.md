@@ -72,9 +72,8 @@ class MainActivity : AppCompatActivity() {
 
 ```details>
 <summary><strong>More Details</strong></summary>
-
-Running and reviewing unit tests is a great way to get familiarized with this class and its methods. You can find [ValidationUtilTest.kt]((https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712))
- which contains all valid and invalid test cases for every function
+* Medium Article : https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712
+* Android Developers : https://developer.android.com/reference/androidx/work/WorkManager
 
 </details>
 
