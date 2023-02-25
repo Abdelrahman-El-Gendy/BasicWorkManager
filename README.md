@@ -20,7 +20,7 @@
 * This blog post about background processing provides a lot of great information about when to use WorkManager. Take a look at this diagram from the blog:<br>
 ![image](https://user-images.githubusercontent.com/73541296/221368673-e0e820fa-1d18-4075-a3db-33396e650405.png)
 
-# Scheduling Background Tasks
+## Scheduling Background Tasks
 
 1- AlarmManager : Schedule work to repeat at specified intervaks.<br>
 2- Async Task : The API for Async Task comes with a sleep learning curve.<br>
