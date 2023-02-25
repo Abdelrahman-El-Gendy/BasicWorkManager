@@ -42,6 +42,9 @@
 class MyWorker: Worker {
 override fun doWork(): Result {
 // do the work!
+/**
+  val data = inputData.getString("KEY")
+**/
 return Result.success()
   }
 }  
@@ -49,12 +52,18 @@ return Result.success()
 ### MainActivity.kt
 ```kt
 class MainActivity : AppCompatActivity() {
+  // The Instance of the WorkManager is a singleTon pattern that exists for the Life Cycle of the App.
   val workManager = WorkManager
     .getInstance(this)
     
   fun startWork() {
-    val workRequest = OneTimeWorkRequest
+  /**
+     val data = Data.Builder(...)
+     .build()
+  **/   
+     val workRequest = OneTimeWorkRequest
        .Builder(...)
+       .setInputData(data)
        .build()
     workManager.enqueue(workRequest)
     }
