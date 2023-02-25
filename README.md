@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 ```
 <details>
 <summary><strong>More Details</strong></summary>
-  
+* Pluralsight Course : <a href=" https://app.pluralsight.com/library/courses/workmanager-coroutines-background-jobs-performing/table-of-contents">Click Here </a> 
 * Medium Article : <a href="https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712">Click Here </a> 
 * Android Developers : <a href="https://developer.android.com/reference/androidx/work/WorkManager"> Click Here </a>
 
