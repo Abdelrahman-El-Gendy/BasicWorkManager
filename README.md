@@ -46,3 +46,16 @@ return Result.success()
   }
 }  
  ```
+### MainActivity.kt
+```kt
+class MainActivity : AppCompatActivity() {
+val workManager = WorkManager
+.getInstance(this)
+fun startWork() {
+val workRequest = OneTimeWorkRequest
+.Builder(...)
+.build()
+workManager.enqueue(workRequest)
+}
+}
+```
