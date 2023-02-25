@@ -21,11 +21,13 @@
 ![image](https://user-images.githubusercontent.com/73541296/221368673-e0e820fa-1d18-4075-a3db-33396e650405.png)
 
 ## Scheduling Background Tasks
-
-1- AlarmManager : Schedule work to repeat at specified intervaks.<br>
-2- Async Task : The API for Async Task comes with a sleep learning curve.<br>
-3- Job Scheduler : Fixes some of the issues of the AlarmManager in AsyncTask , and adds  new feature.<br>
-
+<ol>
+  <li>AlarmManager : Schedule work to repeat at specified intervaks.</li>
+  
+  <li>Async Task : The API for Async Task comes with a sleep learning curve.</li>
+  
+  <li>Job Scheduler : Fixes some of the issues of the AlarmManager in AsyncTask , and adds  new feature.</li>
+ </ol>
 ## Using WorkManager
 <ol>
   <li>Describe the Work (background Task) to be done</li>
